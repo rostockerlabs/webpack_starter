@@ -4,7 +4,7 @@
   "description": "A Starter Setup Webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.dev.js",
+    "start": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
@@ -27,6 +27,7 @@
     "style-loader": "^1.1.3",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
   }
 }
